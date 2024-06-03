@@ -8,7 +8,10 @@
                     <div class="p-5">
                         <div class="text-center">
                             <!-- <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1> -->
-                            <h1 class="h4 text-gray-900 mb-4">Buat Akun Anda</h1>
+                            <<<<<<< HEAD <h1 class="h4 text-gray-900 mb-4">Buat Akun Anda</h1>
+                                =======
+                                <h1 class="h4 text-gray-900 mb-4">Buat Akun</h1>
+                                >>>>>>> 2137cd8318b6c1bd4a945bbb648064eae5db48b5
                         </div>
                         <form class="user" method="post" action="<?= base_url('auth/registration'); ?>">
                             <div class="form-group">
@@ -34,7 +37,7 @@
                         </form>
                         <hr>
                         <div class="text-center">
-                            <a class="small" href="forgot-password.html">Forgot Password?</a>
+                            <a class="small" href="forgot-password.html">Lupa Password?</a>
                         </div>
                         <div class="text-center">
                             <a class="small" href="<?= base_url(); ?>auth">Already have an account? Login!</a>
