@@ -129,7 +129,7 @@ class User extends CI_Controller
 
     public function order()
     {
-        $data['title'] = 'Order';
+        $data['title'] = 'Paket Umroh & Haji';
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
         $data['produk'] = $this->model_produk->tampil_data()->result();
 
