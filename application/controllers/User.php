@@ -21,6 +21,18 @@ class User extends CI_Controller
         $this->load->view('templates/footer');
     }
 
+    public function home()
+    {
+        $data['title'] = 'Selamat Datang Di Website CV.Kyuu';
+        $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+
+
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/sidebar', $data);
+        $this->load->view('templates/topbar_user', $data);
+        $this->load->view('user/home', $data);
+        $this->load->view('templates/footer');
+    }
 
     public function edit()
     {

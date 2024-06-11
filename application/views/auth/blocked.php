@@ -52,7 +52,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Mustika Ratu <?= date('Y'); ?></span>
+                        <span>Copyright &copy; CV.KYUU <?= date('Y'); ?></span>
                     </div>
                 </div>
             </footer>

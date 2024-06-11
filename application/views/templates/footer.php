@@ -2,7 +2,7 @@
 <footer class="sticky-footer bg-white">
     <div class="container my-auto">
         <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Mustika Ratu Buana International <?= date('Y'); ?></span>
+            <span>Copyright &copy; Travel Haji & Umrah CV.Kyuu <?= date('Y'); ?></span>
         </div>
     </div>
 </footer>

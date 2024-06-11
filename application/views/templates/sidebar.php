@@ -3,12 +3,12 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('user/order'); ?>">
         <div class="sidebar-brand-icon rotate-n-0">
             <!-- <i class="fas fa-fw fa-user-tie"></i> -->
             <!-- <i class="fa"><img src="assets/logo3.png"></i> -->
         </div>
-        <div class="sidebar-brand-text mx-3">Mustika Ratu</div>
+        <div class="sidebar-brand-text mx-3">CV.Kyuu</div>
     </a>
 
     <!-- Divider -->

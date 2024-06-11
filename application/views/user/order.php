@@ -15,10 +15,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="<?= base_url('assets/img/banner/banner1.jpg') ?>" class="d-block w-100" alt="...">
+                <img src="<?= base_url('assets/img/banner/GNCwBNYbgAASzPb.jpeg') ?>" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="<?= base_url('assets/img/banner/banner2.jpg') ?>" class="d-block w-100" alt="...">
+                <img src="<?= base_url('assets/img/banner/Lv2-kara-Cheat-datta-Motoyuusha-Kouho-no-Mattari-Isekai-Life-Fenrys-visual-min.webp') ?>" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="<?= base_url('assets/img/banner/yin.jpeg') ?>" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
