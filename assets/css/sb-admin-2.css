@@ -583,8 +583,8 @@ pre code {
 .container-lg,
 .container-xl {
   width: 100%;
-  padding-right: 5rem;
-  padding-left: 5rem;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -10958,7 +10958,7 @@ a:focus {
   flex: 1 0 auto;
 }
 
-/* .container,
+.container,
 .container-fluid,
 .container-sm,
 .container-md,
@@ -10966,7 +10966,7 @@ a:focus {
 .container-xl {
   padding-left: 6.0rem;
   padding-right: 6.0rem;
-} */
+}
 
 .scroll-to-top {
   position: fixed;

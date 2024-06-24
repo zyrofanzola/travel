@@ -5,6 +5,9 @@
         Order Detail <div class="btn btn-sm btn-success">No. Invoice: <?= $invoice->id ?></div>
     </h4>
 
+    <hr>
+    <li></li>
+
     <table class="table table-bordered table-hover table-striped">
 
         <tr>
@@ -38,7 +41,7 @@
         </tr>
 
     </table>
-
+    <hr>
     <a href="<?= base_url('admin/datapesanan') ?>" class="href">
         <div class="btn btn-sm btn-primary">Go Back</div>
     </a>
